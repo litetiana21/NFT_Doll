@@ -1,0 +1,45 @@
+.s-password {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    h1 {
+        margin: 5px 0;
+        font-size: 1.5vw;
+    }
+    input {
+        border-radius: 5px;
+        width: 80%;
+        height: 20%;
+        border: 3px solid black;
+        // font-family: var(--console-font);
+        font-size: 30px;
+        text-align: center;
+        -webkit-text-security: square;
+    }
+}
+
+@media (max-width: 992px) {
+    .s-password {
+        h1 {
+            font-size: 5vw;
+        }
+        input {
+            font-size: calc(3vw + 3vh);
+        }
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .s-password {
+        h1 {
+            font-size: 2vw;
+        }
+        input {
+            font-size: 3.5vw;
+        }
+    }
+}

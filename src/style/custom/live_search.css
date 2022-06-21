@@ -1,0 +1,100 @@
+.live-search {
+	width:100%;
+	position:absolute;
+	z-index:1000;
+	padding:5px 0px;
+	margin-top: 40px;
+	background-color:#FFF;
+	border: 1px solid #DDD;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 2px 2px #DDDDDD;
+	left: 0;
+	display:none;
+}
+.live-search .loading{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.live-search ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+.live-search ul li {
+	cursor:pointer;
+	padding:5px;
+	margin:0px 5px;
+	background-color:#FFF;
+	min-height:40px;
+	clear:both;
+}
+.live-search ul li:nth-child(even) {
+	background-color: #FAFAFA;
+}
+.live-search ul li:hover {
+	background-color:#F0F7FA;
+}
+.live-search ul li a{
+	text-decoration: none;
+	display:block;
+}
+.live-search ul li .product-image{
+	float:left;
+	margin-right:5px;
+}
+.live-search ul li .product-name p{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 10px;
+	color:#555555;
+	margin:0px;
+	padding:0px;
+}
+.live-search ul li .product-name{
+	font-weight: bold;
+	float: left;
+	width:50%;
+}
+.live-search ul li .product-price {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	float:right;
+	margin-top:10px;
+	width:25%;
+}
+.live-search ul li .product-price .price{
+	color: #333333;
+	display:block;
+}
+.live-search ul li .product-price .special{
+	color: #FF0000;
+	text-decoration: line-through;
+	display:block;
+}
+
+.live-search .product-price > .special {
+	margin-top: -5px;
+}
+
+.live-search .result-text{
+	font-weight: bold;
+	text-align: center;
+	font-size: 11px;
+	line-height: 20px;
+	color:#555555;
+	background-color:#e6ffff;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.live-search .view-all-results:hover {
+	color: #23527c;
+}
+.live-search .view-all-results {
+	color: #23a1d1;
+}

@@ -1,0 +1,30 @@
+.navbar.fixed-header{
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    z-index: 999;
+}
+  
+.megamenu-pattern ul li{
+    font-size: 12px !important;
+    font-family: serif;
+}
+
+.header-right ul li{
+    font-size: 12px !important;
+    font-family: serif;
+}
+
+
+.bg-primary{
+    background-color: white !important;
+}
+
+.navbar{
+    display: block !important;
+}
+
+.navbar-inverse{
+    border: none !important;
+}

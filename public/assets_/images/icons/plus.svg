@@ -1,0 +1,79 @@
+var _g, _g2, _g3, _g4, _g5, _g6, _g7, _g8, _g9, _g10, _g11, _g12, _g13, _g14, _g15;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgPlus(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    xmlnsSvgjs: "http://svgjs.com/svgjs",
+    width: 512,
+    height: 512,
+    x: 0,
+    y: 0,
+    viewBox: "0 0 349.03 349.031",
+    style: {
+      enableBackground: "new 0 0 512 512"
+    },
+    xmlSpace: "preserve",
+    className: "",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M349.03,141.226v66.579c0,5.012-4.061,9.079-9.079,9.079H216.884v123.067c0,5.019-4.067,9.079-9.079,9.079h-66.579   c-5.009,0-9.079-4.061-9.079-9.079V216.884H9.079c-5.016,0-9.079-4.067-9.079-9.079v-66.579c0-5.013,4.063-9.079,9.079-9.079   h123.068V9.079c0-5.018,4.069-9.079,9.079-9.079h66.579c5.012,0,9.079,4.061,9.079,9.079v123.068h123.067   C344.97,132.147,349.03,136.213,349.03,141.226z",
+    fill: "#ffffff",
+    "data-original": "#000000",
+    style: {},
+    className: ""
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g3 || (_g3 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g4 || (_g4 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g5 || (_g5 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g6 || (_g6 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g7 || (_g7 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g8 || (_g8 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g9 || (_g9 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g10 || (_g10 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g11 || (_g11 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g12 || (_g12 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g13 || (_g13 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g14 || (_g14 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  })), _g15 || (_g15 = /*#__PURE__*/React.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg"
+  }))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgPlus);
+export default __webpack_public_path__ + "static/media/plus.1888e883.svg";
+export { ForwardRef as ReactComponent };

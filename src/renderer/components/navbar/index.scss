@@ -1,0 +1,212 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    left: 0;
+    width: inherit;
+    padding: 1% 3% 1% 3%;
+    position: relative;
+    background-color: var(--dark-blue);
+    img {
+        height: 100px;
+    }
+    .nav-drawer {
+        overflow-y: hidden !important;
+    }
+    .left-nav-main {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .left-nav {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .nav-list,
+    #ham-icon,
+    div {
+        justify-self: end;
+    }
+}
+.middle-navbar {
+    position: absolute;
+    left: 0;
+    right: -150px;
+}
+.middle-navbar > span {
+    padding: 10px;
+    font-size: 1.2vw;
+    // border: 0.2px solid white;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: #2e1766b8;
+}
+.middle-navbar > span:hover {
+    background-color: #391f7ab8;
+}
+.traits {
+    text-decoration: none;
+    color: white;
+}
+.about_navbar {
+    cursor: pointer;
+}
+.roadmap_navbar {
+    cursor: pointer;
+}
+.traits_navbar {
+    cursor: pointer;
+}
+.faqs_navbar {
+    cursor: pointer;
+}
+.video_navbar {
+    cursor: pointer;
+}
+@media (max-width: 1325px) {
+    .middle-navbar {
+        font-size: small;
+    }
+    .navbar img {
+        height: 65px;
+    }
+    .middle-navbar {
+        position: absolute;
+        left: 0;
+        right: -80px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1090px) {
+    .middle-navbar {
+        position: absolute;
+        left: 0;
+        right: -40px;
+    }
+}
+@media (max-width: 1024px) { 
+    .middle-navbar {
+        display: none;
+    }
+}
+
+.monke {
+    width: 30%;
+    background-color: var(--light-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    >svg {
+        width: 20%;
+        height: auto;
+    }
+    >img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+.logo {
+    width: 30%;
+    background-color: var(--dark-blue);
+    height: 100vh;
+}
+
+.MuiDrawer-paperAnchorRight {
+    width: 100%;
+    background-color: var(--darker-blue) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: row !important;
+    overflow-y: hidden !important;
+}
+
+@media (max-width: 576px) {
+    .MuiDrawer-paperAnchorRight {
+        width: 100%;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: 40% 60% !important;
+        padding: 5% 1% 5% 1%;
+        svg {
+            width: 80px;
+        }
+        .left-nav-main {
+            margin-top: 7em;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .MuiDrawer-paperAnchorRight {
+        width: 100%;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 5% 3% 5% 3%;
+        svg {
+            width: 80px;
+        }
+    }
+}
+
+.open-menu {
+    transform: translateX(-90%);
+}
+
+@media (max-width: 992px) {
+    .open-menu {
+        transform: translateX(-90%);
+    }
+    .left-nav-main {
+        width: 100% !important;
+        height: 50%;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        .left-nav {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .open-menu {
+        transform: translateX(-30%);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+     :root {
+        --content-radius: 75px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+     :root {
+        --content-radius: 75px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .open-menu {
+        transform: translateX(-55%);
+    }
+}

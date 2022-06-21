@@ -1,0 +1,27 @@
+.plus-sign{
+    position: relative;
+    top: -15px;
+    left: 45%;
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.padding-top{
+    padding-top: 30px;
+}
+.red{
+    color:red;
+    cursor: pointer;
+}
+.blue{
+    color: rgba(0, 122, 255, 0.8);
+    cursor: pointer;
+}
+.align-right{
+    text-align: right;
+}
+

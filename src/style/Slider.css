@@ -1,0 +1,200 @@
+#rev_slider_1_1_wrapper .tp-loader.spinner3 div {
+    background-color: #FFFFFF !important;
+}
+
+#rev_slider_1_1_wrapper.rev_slider_wrapper.fullwidthbanner-container{
+    display: none;
+    margin: 0px auto; background-color: rgb(233, 233, 233); 
+    padding: 0px; max-height: 421px; height: 416px; overflow: visible;    
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive{
+    max-height: 421px; height: 416px;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul{
+    display: block; overflow: hidden; width: 100%; height: 100%; max-height: 421px;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide{
+    width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide .slotholder{
+    width:100%;height:100%;
+}
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide .slotholder .tp-bgimg.defaultimg
+{
+    background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; 
+    background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-PKM-HOR.jpg); 
+    background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 0; visibility: hidden;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide .tp-caption.sft.slidelink.hasclicklistener{
+    width: 100%; height: 100%; z-index: 60; cursor: pointer; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 16px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 10px; left: 0px; top: 0px; visibility: visible; 
+    /* opacity: 0;  */
+    /* transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -35.9375, 0, 1); */
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide .tp-caption.sft.slidelink.hasclicklistener a{
+    width:100%;height:100%;display:block
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide .tp-caption.sft.slidelink.hasclicklistener a{
+    width:100%;height:100%;display:block
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible{
+    width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .slotholder{
+    width:100%;height:100%;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .slotholder .tp-bgimg.defaultimg{
+    background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; 
+    background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-DIGIMON-HOR.jpg);
+    background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .slotholder .tp-bgimg.defaultimg .tp-caption.sft.slidelink.hasclicklistener{
+    width: 100%; height: 100%; z-index: 60; cursor: pointer; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 16px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 10px; left: 0px; top: 0px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .slotholder .tp-bgimg.defaultimg .tp-caption.sft.slidelink.hasclicklistener a{
+    width:100%;height:100%;display:block
+
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .slotholder .tp-bgimg.defaultimg .tp-caption.sft.slidelink.hasclicklistener a span{
+    width:100%;height:100%;display:block
+}
+
+#rev_slider_1_1.rev_slider.fullwidthabanner.revslider-initialised.tp-simpleresponsive .tp-bannertimer{
+    width: 62%; visibility: visible; transform: translate3d(0px, 0px, 0px);
+}
+
+.tp-bullets.simplebullets.round-old{
+    bottom: 14.375px; left: 50%; margin-left: -27px;
+}
+
+
+
+
+
+
+
+
+#rev_slider_2_2 .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible{
+    width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1;
+}
+
+#rev_slider_2_2 .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .tp-bgimg.defaultimg{
+    background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; 
+    background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-PKM.jpg); 
+    background-size: contain; background-position: center top; width: 100%; height: 100%; opacity: 1; visibility: inherit;
+}
+
+#rev_slider_2_2 .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .tp-revslider-slidesli.active-revslide .tp-caption.sft.slidelink.hasclicklistener{
+    width: 100%; height: 100%; z-index: 60; cursor: pointer; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 6px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 4px; left: 0px; top: 27px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -14.2857, 0, 1);
+}
+
+#rev_slider_2_2 .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .tp-revslider-slidesli.active-revslide .tp-bgimg.defaultimg{
+    background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat;
+    background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-DIGIMON-VERT.jpg); background-size: contain; background-position: center top; width: 100%; height: 100%; visibility: inherit; opacity: 0;
+}
+
+#rev_slider_2_2 .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .tp-revslider-slidesli.active-revslide{
+    width: 100%; height: 100%; overflow: hidden; visibility: hidden; opacity: 0; z-index: 18;
+}
+
+#rev_slider_2_2 .tp-revslider-mainul .tp-caption.sft.slidelink.hasclicklistener{
+    width: 100%; height: 100%; z-index: 60; cursor: pointer; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 6px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 4px; left: 0px; top: 27px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+#rev_slider_2_2 .tp-revslider-mainul{
+    display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;
+}
+
+#rev_slider_2_2{
+    max-height: none; 
+    height: 100%;
+    backface-visibility: hidden; transform-style: preserve-3d;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+    perspective: 2500px;
+}
+
+#rev_slider_2_2_wrapper{
+    margin: 0px auto; background-color: rgb(233, 233, 233); padding: 0px; max-height: none; 
+    height: 416px;
+    overflow: visible;
+}
+
+.tp-bannertimer{
+    width: 56.1778%; visibility: visible; transform: translate3d(0px, 0px, 0px);
+}
+
+.tp-leftarrow.hidearrows.tparrows.default.round-old .tp-arr-allwrapper .tp-arr-iwrapper .tp-arr-imgholder{
+    visibility: inherit; opacity: 1; 
+    background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-DIGIMON-VERT.jpg);
+}
+
+.tp-rightarrow.hidearrows.tparrows.default.round-old{
+    position: absolute; top: 25px; margin-top: -25px; right: 20px;
+}
+.tp-rightarrow.hidearrows.tparrows.default.round-old .tp-arr-allwrapper .tp-arr-iwrapper .tp-arr-imgholder{
+    visibility: inherit; opacity: 1; 
+    background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-DIGIMON-VERT.jpg);
+}
+
+/* by CGI */ 
+.container .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto !important;
+}
+
+@media only screen and (max-width: 1092px){
+    #rev_slider_2_2_wrapper {
+        display: block !important;
+        height: 346px;
+        background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; 
+        background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-PKM-HOR.jpg); 
+        background-size: cover; width: 100%; height: 100%; opacity: 1; visibility: inherit;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    #rev_slider_2_2_wrapper {
+        display: block !important;
+        height: 346px;
+        background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; 
+        background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-PKM-HOR.jpg); 
+        background-size: cover; width: 100%; height: 100%; opacity: 1; visibility: inherit;
+    }
+    /* #rev_slider_2_2 .tp-revslider-mainul .tp-revslider-slidesli.active-revslide.current-sr-slide-visible .tp-bgimg.defaultimg{
+        background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; 
+        background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-PKM-HOR.jpg); 
+        background-size: cover; width: 100%; height: 100%; opacity: 1; visibility: inherit;
+    } */
+    
+}
+
+
+/* #rev_slider_2_2_wrapper {
+    display: block;
+} */
+
+@media only screen and (max-width: 992px){
+    #rev_slider_2_2_wrapper {
+        height: 523px !important;
+        background-image: url(https://www.versusgamecenter.pt/image/catalog/revslider_media_folder/NOVIDADES-PKM.jpg);
+    }
+}
+
+
+/* navbar navbar-inverse bg-primary navbar-expand-sm navbar-dark px-sm-5 */
+.navbar.navbar-inverse.bg-primary{
+    background-color: #FFFFFF;
+}

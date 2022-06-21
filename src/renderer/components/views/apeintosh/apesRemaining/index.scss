@@ -1,0 +1,70 @@
+.apes-r {
+  position: absolute;
+  right: -105%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  span {
+    font-family: var(--content-font);
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --content-radius: 25px;
+  }
+  .hp-content {
+    margin-top: 30%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .apes-r {
+    color: white;
+    right: -100%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .apes-r {
+    color: white;
+    right: -68%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .apes-r {
+    position: absolute;
+    text-align: left;
+    color: white;
+    right: -100%;
+    h3 {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 90px;
+    }
+    span {
+      margin: 0;
+      font-size: 70px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.nsfw-img {
+  color: var(--dark-purple);
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .nsfw-img {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+}
+
+@media (min-width: 2500px) {
+  .nsfw-img {
+    font-size: 20px;
+  }
+}

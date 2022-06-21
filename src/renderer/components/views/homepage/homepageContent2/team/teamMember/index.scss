@@ -1,0 +1,115 @@
+.hp-tm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 90%;
+    height: auto;
+    border-radius: 65px;
+    border: 5px solid var(--light-blue);
+    box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+  }
+  h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+  }
+  p {
+    font-size: 25px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .hp-tm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    img {
+      width: 50%;
+      height: auto;
+      border-radius: 40px;
+      border: 3px solid var(--light-blue);
+      box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+    }
+    > .hp-tm-l {
+      margin-left: 5%;
+    }
+    h2 {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 1px;
+    }
+    p {
+      font-size: 15px;
+      margin: 0;
+    }
+  }
+}
+
+#team {padding-bottom: 50px;}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  .hp-tm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 90%;
+      height: auto;
+      border-radius: 60px;
+      border: 3px solid var(--light-blue);
+      box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -12px 11px 23px 3px rgba(0, 0, 0, 0.75);
+    }
+    h2 {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 1px;
+    }
+    p {
+      font-size: 25px;
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 2500px) {
+  .hp-tm {
+    img {
+      width: 90%;
+      height: auto;
+      border-radius: 100px;
+      border: 10px solid var(--light-blue);
+      box-shadow: -32px 31px 43px 23px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -32px 31px 43px 23px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -32px 31px 43px 23px rgba(0, 0, 0, 0.75);
+    }
+    h2 {
+      font-size: 50px;
+      text-transform: uppercase;
+      margin-bottom: 1px;
+    }
+    p {
+      font-size: 30px;
+      margin: 0 0 50px 0;
+    }
+  }
+}

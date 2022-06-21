@@ -1,0 +1,51 @@
+.w-list {
+    width: 100%;
+    padding: 0 10%;
+    button {
+        color: white;
+        font-family: var(--content-font);
+        text-transform: capitalize;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-content: center;
+        align-items: center;
+        justify-items: start;
+        &:first-child {
+            margin-bottom: 5%;
+        }
+        svg {
+            width: 50%;
+        }
+    }
+    .wl-phantom {
+        background-color: var(--phantom);
+        svg {
+            width: 60%;
+        }
+        transition: 0.5s;
+        &:hover {
+            background-color: var(--phantom-hover);
+        }
+        font-weight: 400;
+    }
+    .wl-sollet {
+        background-color: var(--sollet);
+        transition: 0.5s;
+        &:hover {
+            background-color: var(--sollet-hover);
+        }
+    }
+    .wl-metamask {
+        background-color: var(--phantom);
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+        transition: 0.5s;
+        &:hover {
+            background-color: var(--phantom-hover);
+        }
+        margin-top: -5px;
+        font-weight: 400;
+    }
+}

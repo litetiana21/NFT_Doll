@@ -1,0 +1,91 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 300px;
+  padding: 2% 10%;
+  width: 100%;
+
+  background-color: var(--light-blue);
+
+  .foot-ape-logo {
+    text-align: center;
+    color: white;
+
+    font-family: var(--content-font), sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 200px;
+    }
+  }
+
+  .foot-links {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    svg {
+      width: 50px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  footer {
+    height: 150px !important;
+    padding: 0 0 0 0 !important;
+    min-height: 200px !important;
+  }
+  .foot-ape-logo img {
+    width: 100px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 10%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 2500px) {
+  footer {
+    .foot-ape-logo {
+      img {
+        width: 300px;
+      }
+      font-size: 32px;
+    }
+
+    .foot-links {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      svg {
+        width: 50px;
+        height: auto;
+      }
+    }
+  }
+}

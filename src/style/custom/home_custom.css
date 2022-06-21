@@ -1,0 +1,561 @@
+#header #header-top {
+    background: green !important;
+}
+
+.widget.newsletter-widget-box .box-content input[type="submit"],
+.gridlist-toggle>a:hover,
+.gridlist-toggle>a:focus,
+.gridlist-toggle>a.active,
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
+.widget-title .toggle:hover,
+.filter-size-box.active,
+.filter-size-box:hover,
+.filter-size-box:focus,
+.noUi-connect,
+.noUi-handle,
+.filter-slider-action .btn,
+.product:hover .product-btn.btn-add-cart,
+.product-details .single_add_to_cart_button,
+#footer .footer-ribbon,
+.widget .tagcloud a:hover,
+#footer .widget .tagcloud a:hover,
+.newsletter-widget input[type="submit"],
+.product-center .radio-type-button2 span:hover,
+.product-center .radio-type-button2 span.active,
+.newsletter-widget input[type="submit"],
+.product-filter .options .button-group button:hover,
+.product-filter .options .button-group .active,
+.btn-default,
+.btn,
+.button,
+.product-list .btn-add-cart,
+.skin1 .owl-dot,
+#main-content .mfilter-heading .mfilter-head-icon:hover,
+.header4 .megamenu-wrapper,
+.skin7 #footer .widget .tagcloud a:hover,
+.skin7 #footer .newsletter-widget input[type="submit"],
+.skin7 #main-content .product .product-image .product-btn.btn-add-cart:hover,
+.skin7 .product:hover .product-btn.btn-add-cart,
+ul.megamenu li.type2 .sub-menu .content,
+ul.megamenu li.type2 .sub-menu .content .hover-menu .menu ul ul,
+.skin11 .newsletter-widget input[type="submit"],
+.skin1 blockquote.testimonial,
+.blog-tags .tagcloud a,
+.news .media-body .tags a,
+.body-header-type-24 ul.megamenu>li.home>a,
+.body-header-type-24 ul.megamenu>li:hover>a,
+.body-header-type-24 ul.megamenu>li.active>a,
+.index4newposts .post-item2 .post-image .post-date {
+    background-color: #eb2027;
+}
+
+#footer .footer-ribbon:before {
+    border-right-color: #eb2027;
+}
+
+.vertical ul.megamenu>li>.sub-menu>.content,
+.skin11 #footer .footer-ribbon:before,
+.banner .category-title:after {
+    border-right-color: #eb2027 !important;
+}
+
+.vertical ul.megamenu>li.click>a:before,
+.vertical ul.megamenu>li.hover>a:before,
+.vertical ul.megamenu>li>.sub-menu>.content {
+    border-left-color: #eb2027;
+}
+
+@media (min-width: 767px) {
+    .vertical-tabs .nav-tabs>li.active>a {
+        border-left-color: #eb2027;
+    }
+
+    .rtl .vertical-tabs .nav-tabs>li.active>a {
+        border-right-color: #eb2027;
+    }
+}
+
+.accordion-product-tab .panel-heading a {
+    background: #eb2027;
+    border-left: 3px solid #eb2027;
+}
+
+.accordion-product-tab .panel-heading a.collapsed {
+    color: #eb2027;
+}
+
+.rtl .accordion-product-tab .panel-heading a {
+    border-right-color: #eb2027;
+}
+
+.skin7 #footer .widget .tagcloud a:hover,
+.skin7 #footer .newsletter-widget input[type="submit"],
+.skin7 #main-content .product .product-image .product-btn.btn-add-cart,
+.skin7 #main-content .product .product-image .product-btn.btn-add-cart:hover,
+.skin7 .product:hover .product-btn.btn-add-cart,
+.skin11 .newsletter-widget input[type="submit"],
+.skin13 .newsletter-widget input[type="submit"],
+.skin1new .testimonial-carousel,
+.newskins .vinfo-box-icon.vinfo-box-circle,
+#header.header29 #header-top {
+    border-color: green;
+}
+
+#main-content .mfilter-slider-slider .ui-slider-handle,
+#main-content #mfilter-price-slider .ui-slider-handle,
+#main-content .mfilter-slider-slider .ui-slider-range,
+#main-content #mfilter-price-slider .ui-slider-range,
+.post .date-published .month,
+.posts .button-more,
+a.quickviewlink.quickview-icon:hover,
+.product-image a.quickview-icon,
+.box .box-heading .toggle:hover,
+.body-header-type-4 ul.megamenu>li.home>a,
+.body-header-type-4 ul.megamenu>li:hover>a,
+#header.header3 .currency-switcher>li>ul,
+#header.header3 .view-switcher>li ul,
+#header.header3 .currency-switcher>li:hover>a,
+#header.header3 .view-switcher>li:hover>a,
+#header.header4 .currency-switcher>li>ul,
+#header.header4 .view-switcher>li ul,
+#header.header4 .currency-switcher>li:hover>a,
+#header.header4 .view-switcher>li:hover>a,
+.skin1 .post-item .post-date .month,
+.skin7 blockquote.testimonial,
+#header.header6 #header-top,
+.header6 ul.megamenu>li>a:hover,
+.header6 ul.megamenu>li.active>a,
+.header6 ul.megamenu>li.home>a,
+.header6 ul.megamenu>li:hover>a,
+#header.header6 .currency-switcher>li:hover>a,
+#header.header6 .view-switcher>li:hover>a,
+#header.header6 .currency-switcher>li>ul,
+#header.header6 .view-switcher>li ul,
+.skin8 #footer .widget .tagcloud a:hover,
+.skin8 #footer .newsletter-widget input[type="submit"],
+#header.header7 .currency-switcher>li:hover>a,
+#header.header7 .view-switcher>li:hover>a,
+#header.header7 .currency-switcher>li>ul,
+#header.header7 .view-switcher>li ul,
+.vertical ul.megamenu>li.active>a,
+.vertical ul.megamenu>li:hover>a,
+#header.header8 #header-inner,
+.skin11 #footer .footer-ribbon,
+.header10 ul.megamenu>li>a:hover,
+.header10 ul.megamenu>li.active>a,
+.header10 ul.megamenu>li.home>a,
+.header10 ul.megamenu>li:hover>a,
+.skin13 .newsletter-widget input[type="submit"],
+.header12 ul.megamenu>li>a:hover,
+.header12 ul.megamenu>li.active>a,
+.header12 ul.megamenu>li.home>a,
+.header12 ul.megamenu>li:hover>a,
+.skin13 .product .product-image .product-btn.btn-quickview,
+.skin14 .owl-carousel .owl-dot:hover,
+.skin14 .owl-carousel .owl-dot.active,
+.skin14 .top-container .owl-carousel .owl-dot:hover,
+.skin14 .top-container .owl-carousel .owl-dot.active,
+.common-home .header13 ul.megamenu>li:first-child,
+.header13 ul.megamenu>li:hover,
+.skin14 .product .product-image .product-btn.btn-quickview,
+.body-header-type-15 ul.megamenu>li.home>a,
+.body-header-type-15 ul.megamenu>li:hover>a,
+.body-header-type-15 .overflow-menu #mini-cart,
+.skin15 .owl-carousel .owl-dot:hover,
+.skin15 .owl-carousel .owl-dot.active,
+.skin15 .top-container .owl-carousel .owl-dot:hover,
+.skin15 .top-container .owl-carousel .owl-dot.active,
+#header.header15 #header-top,
+.header18#header .currency-switcher li>ul,
+.header18#header .view-switcher li>ul,
+#header.header18 #header-top .currency-switcher>li:hover>a,
+#header.header18 #header-top .view-switcher>li:hover>a,
+.skin17-2 .product-grid>.row>div .product-action .product-btn.btn-add-cart,
+.skin17-button,
+.skin17 .newsletter-widget input[type="submit"],
+.banner .category-title,
+#header .currency-switcher li>ul,
+#header .view-switcher li>ul,
+#header .currency-switcher li:hover>a,
+#header .view-switcher li:hover>a,
+.post .tags a,
+.index7newposts .post-image .post-date,
+.newskins.skin7new .testimonial-carousel .owl-dot.active {
+    background: #eb2027 !important;
+}
+
+.product-image a.quickview-icon,
+.skin11 #scroll-top,
+.skin11 #scroll-top:hover {
+    color: #fff !important;
+}
+
+@media (max-width: 480px) {
+    #header.header3 #mini-cart .cart-items {
+        color: #eb2027;
+    }
+}
+
+a:active,
+a:hover,
+a:focus,
+.nav-tabs>li>a,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus,
+ul.product_list_widget li .product-details a:hover,
+.widget ul.product_list_widget li .product-details a:hover,
+.links-block-content ul li>a:hover,
+.icon-read,
+.gridlist-toggle>a:hover,
+.gridlist-toggle>a:focus,
+.gridlist-toggle>a.active,
+.product h3 a:hover,
+.product-details .price,
+.product-details .product_meta span a,
+.owl-prev,
+.owl-next,
+#mini-cart .mini-cart-info table td.name .price2,
+.product-center .price .price-new,
+a.quickviewlink.quickview-icon,
+body .popup-module .mfp-close,
+.pagination>li>a,
+.pagination>li>span,
+#mini-cart .mini-cart-total tr td:last-child,
+#header.header3 .top-links a,
+#header.header3 #header-inner .header-contact a,
+#header.header3 #mini-cart .minicart-icon,
+#header.header3 .searchform button:hover,
+#header.header3 .searchform-popup .search-toggle,
+#header.header3 .mobile-toggle,
+.body-header-type-4 ul.megamenu>li>a,
+.skin5 #footer a,
+.skin5 #footer a:hover,
+.skin5 #footer .widget-title,
+#header.header4 .top-links a,
+#header.header4 #header-inner .header-contact a,
+#header.header4 #mini-cart .minicart-icon,
+#header.header4 .searchform button:hover,
+#header.header4 .searchform-popup .search-toggle,
+#header.header4 .mobile-toggle,
+.header4 .megamenu-wrapper ul.megamenu>li.home>a,
+.header4 .megamenu-wrapper ul.megamenu>li>a:hover,
+.skin1 .post-item .post-date .day,
+.skin1 .post-item h4 a,
+.skin1 .post-item h4 a:hover,
+.skin1 .post-item a,
+.skin1 .post-item a:hover,
+.skin7 .owl-prev,
+.skin7 .owl-next,
+.skin7 #main-content .product .product-image .product-btn.btn-add-cart,
+#header.header6 #header-inner .header-contact a,
+#header.header6 #mini-cart .minicart-icon,
+.header6 ul.megamenu>li>a,
+.skin8 #footer .widget-title,
+#header.header7 #header-inner .header-contact a,
+#header.header7 #mini-cart .minicart-icon,
+#header.header7 .top-links li a,
+#header.header7 .searchform-popup .search-toggle,
+#header.header7 .mobile-toggle,
+.header7 ul.megamenu>li>a:hover,
+.header7 ul.megamenu>li.active>a,
+.header7 ul.megamenu>li.home>a,
+.header7 ul.megamenu>li:hover>a,
+#header.header8 .currency-switcher li li a,
+#header.header8 .view-switcher li li a,
+#header.header8 .currency-switcher>li:hover>a,
+#header.header8 .view-switcher>li:hover>a,
+#header.header8 .top-links li a:hover,
+#header.header8 .searchform button:hover,
+.header8 .horizontal ul.megamenu>li>a:hover,
+.skin11 .owl-prev,
+.skin11 .owl-next,
+.nav-tabs.nav-links>li.active>a,
+.nav-tabs.nav-links>li.active>a:hover,
+.nav-tabs.nav-links>li.active>a:focus,
+.skin13 .owl-prev,
+.skin13 .owl-next,
+#header.header12 #mini-cart .minicart-icon,
+.header13 ul.megamenu>li>a,
+.body-header-type-15 ul.megamenu>li>a,
+.skin15 .product h3>a:hover,
+.skin15 .nav-tabs.nav-links>li.active>a,
+.skin15 .nav-tabs.nav-links>li.active>a:hover,
+.skin15 .nav-tabs.nav-links>li.active>a:focus,
+.skin15 .post-item h4 a,
+.post-item h4 a:hover,
+.skin15 .post-item a,
+.skin15 .post-item a:hover,
+.skin15 .post-item .post-date .day,
+.skin15 .product-categories li a:hover,
+.skin1 .owl-prev,
+.skin1 .owl-next,
+.header18 ul.megamenu>li>a:hover,
+.header18 ul.megamenu>li.active>a,
+.header18 ul.megamenu>li.home>a,
+.header18 ul.megamenu>li:hover>a,
+.header18 #mini-cart .minicart-icon,
+.header18 #mini-cart.minicart-inline .cart-items,
+.header18#header .mobile-toggle,
+#header.header19 .searchform-popup .search-toggle,
+.header19 #mini-cart.minicart-inline .cart-items,
+.header19 #mini-cart .minicart-icon,
+.header19#header .mobile-toggle,
+.header1.fixed-header.type3 #mini-cart .minicart-icon,
+.header1.fixed-header.type7 #mini-cart .minicart-icon,
+.header1.fixed-header.type14 #mini-cart .minicart-icon,
+.header1.fixed-header.type15 #mini-cart .minicart-icon,
+.header1.fixed-header.type17 #mini-cart .minicart-icon,
+.box .box-category .active,
+.skin1new blockquote.testimonial:before,
+.skin1new blockquote.testimonial:after,
+.news2 .post-date2,
+.newskins .product-block>div i,
+.header24 #mini-cart .minicart-icon:before,
+.body-header-type-24 ul.megamenu>li>a,
+.custom-support i,
+#header.header24 .searchform-popup .search-toggle,
+#header.header24 .mobile-toggle,
+.newskins .vinfo-box-icon.vinfo-box-circle,
+.skin11new .tabs-container .nav-tabs>li.active>a,
+.header27 ul.megamenu>li>a:hover,
+.header27 ul.megamenu>li.active>a,
+.header27 ul.megamenu>li.home>a,
+.header27 ul.megamenu>li:hover>a,
+.skin12new #footer .subscribe,
+blockquote.testimonial2:before,
+blockquote.testimonial2:after {
+    color: #eb2027;
+}
+
+@media (max-width: 480px) {
+    .header19#header #mini-cart .cart-items {
+        color: #eb2027;
+    }
+
+    #header.header24 #mini-cart {
+        background: #eb2027;
+    }
+}
+
+#main-content .tp-leftarrow,
+#main-content .tp-rightarrow,
+.posts .post .post-title a,
+.post .date-published .day,
+.widget.contact-info li i,
+#footer .widget .links li>i,
+#header.header10 #header-inner .header-contact a,
+#header.header10 #mini-cart .minicart-icon,
+#header.header10 .top-links li a,
+#header.header10 .top-links li:hover>a,
+#header.header10 .searchform-popup .search-toggle,
+#header.header10 .mobile-toggle,
+#header.header12 #header-top .top-links>li>a,
+#header.header12 #header-top .top-links>li:hover>a,
+#header.header12 #header-inner .header-contact a,
+.post .meta>li a,
+.skin12new .title-group .nav-tabs.nav-links .active a,
+.skin12new .title-group .nav-tabs.nav-links .selected a {
+    color: #866c6c !important;
+}
+
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus,
+ul.megamenu li .sub-menu .content,
+.popup,
+.well,
+#header.header3,
+.skin5,
+.prev-next-products .product-nav .product-pop,
+.skin1 .testimonial-arrow-down,
+#header.header10,
+#header.header12 #mini-cart.dropdown .dropdown-menu,
+#header.header12 .menu ul,
+#header.header12 .menu .megamenu,
+#header.header13 #mini-cart.minicart-inline .dropdown-menu,
+#header.header15 #mini-cart.dropdown .dropdown-menu,
+#header.header15 .menu ul,
+#header.header15 .menu .megamenu,
+.banner .category-title:after,
+#mini-cart.dropdown .dropdown-menu,
+.widget.newsletter-widget-box .box-content,
+#header.header24 #header-top,
+#header.header28 {
+    border-top-color: #eb2027;
+}
+
+.widget.newsletter-widget-box .box-content input[type="submit"],
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
+.widget-title .toggle:hover,
+.filter-size-box.active,
+.filter-size-box:hover,
+.filter-size-box:focus,
+.filter-slider-action .btn,
+.product:hover .product-btn.btn-add-cart,
+.product-details .single_add_to_cart_button,
+.widget .tagcloud a:hover,
+#footer .widget .tagcloud a:hover,
+.newsletter-widget input[type="submit"],
+.product-center .radio-type-button2 span:hover,
+.product-center .radio-type-button2 span.active,
+.product-filter .options .button-group button:hover,
+.product-filter .options .button-group .active,
+.product-list .btn-add-cart,
+a.quickviewlink.quickview-icon,
+#main-content .mfilter-heading .mfilter-head-icon:hover,
+.box .box-heading .toggle:hover,
+#header.header3 #mini-cart.dropdown .dropdown-menu,
+#header.header6 #mini-cart.dropdown .dropdown-menu,
+#header.header6 .menu ul,
+#header.header6 .menu .megamenu,
+.skin8 #footer .widget .tagcloud a:hover,
+.skin8 #footer .newsletter-widget input[type="submit"],
+#header.header7 #mini-cart.dropdown .dropdown-menu,
+#header.header7 .menu ul,
+#header.header7 .menu .megamenu,
+.header_10 ul.megamenu li .sub-menu .content,
+.rtl .header_10 ul.megamenu li .sub-menu .content,
+#header.header10 #mini-cart.dropdown .dropdown-menu,
+#header.header10 .menu ul,
+#header.header10 .menu .megamenu,
+.skin13 .product .product-image .product-btn.btn-quickview,
+.skin14 .product .product-image .product-btn.btn-quickview,
+.skin15 .newsletter-widget input[type="submit"],
+#header.header15 .searchform,
+.header18 #mini-cart.minicart-inline .dropdown-menu,
+.skin17 .newsletter-widget input[type="submit"],
+#header.header4 #mini-cart.dropdown .dropdown-menu,
+.newskins .pagination>.active>a,
+.newskins .pagination>.active>span,
+.newskins .pagination>.active>a:hover,
+.newskins .pagination>.active>span:hover,
+.newskins .pagination>.active>a:focus,
+.newskins .pagination>.active>span:focus {
+    border-color: #eb2027;
+}
+
+#header.header3 #mini-cart.dropdown .dropdown-menu:before,
+.prev-next-products .product-nav .product-pop:before,
+#header.header6 #mini-cart.dropdown .dropdown-menu:before,
+#header.header7 #mini-cart.dropdown .dropdown-menu:before,
+#header.header10 #mini-cart.dropdown .dropdown-menu:before,
+.header12 ul.megamenu>li>a:hover,
+.header12 ul.megamenu>li.active>a,
+.header12 ul.megamenu>li.home>a,
+.header12 ul.megamenu>li:hover>a,
+#header.header12 #mini-cart.dropdown .dropdown-menu:before,
+#header.header13 #mini-cart.dropdown.minicart-inline .dropdown-menu:before,
+#header.header15 #mini-cart.dropdown .dropdown-menu:before,
+.header18 #mini-cart.dropdown.minicart-inline .dropdown-menu:before,
+#mini-cart.dropdown .dropdown-menu:before,
+#mini-cart.dropdown.minicart-inline .dropdown-menu:before,
+#header.header4 #mini-cart.dropdown .dropdown-menu:before {
+    border-bottom-color: #eb2027;
+}
+
+.newskins.horizontal-tabs .nav-tabs>li.active>a,
+.newskins.horizontal-tabs .nav-tabs>li.active>a:hover,
+.newskins.horizontal-tabs .nav-tabs>li.active>a:focus {
+    border-bottom-color: #eb2027 !important;
+}
+
+#header #header-top,
+#header .currency-switcher a,
+#header .view-switcher a,
+#header .top-links a,
+#header.header22 #header-top .welcome-msg,
+#header.header22 .top-links>li>a,
+#header.header23 #header-top .welcome-msg,
+#header.header23 .top-links>li>a,
+#header.header24 .top-links>li>a,
+#header.header24 #header-top .welcome-msg,
+#header.header24 .currency-switcher>li>a,
+#header.header24 .view-switcher>li>a,
+.header25#header .currency-switcher a,
+.header25#header .view-switcher a,
+.header25#header .top-links a {
+    color: #ffffff;
+}
+
+#header .currency-switcher li:hover>a,
+#header .view-switcher li:hover>a,
+#header .top-links a:hover,
+.header25#header .currency-switcher a:hover,
+.header25#header .view-switcher a:hover,
+.header25#header .top-links a:hover {
+    color: #ffc2c2 !important;
+}
+
+#header,
+#header.header8 #header-inner,
+.header1.fixed-header.header22,
+.header1.fixed-header.header23 {
+    background: #ffffff !important;
+}
+
+@media (max-width: 480px) {
+    #header #mini-cart {
+        background: none;
+    }
+}
+
+#header #header-inner .header-contact,
+#header #header-inner .header-contact a {
+    color: #393f4f;
+}
+
+#header #header-inner .header-contact a:hover {
+    color: #09090a;
+}
+
+#mini-cart .minicart-icon,
+.header24 #mini-cart .minicart-icon:before,
+.header25 #mini-cart .minicart-icon:before,
+.header26 #mini-cart .minicart-icon:before,
+.header29 #mini-cart .minicart-icon:before {
+    color: #393f4f !important;
+}
+
+#mini-cart .cart-items,
+.header24 #mini-cart .cart-items,
+.header26 #mini-cart .cart-items {
+    color: #ffffff;
+}
+
+
+
+
+
+
+.megamenu-wrapper, .header1.fixed-header, .body-header-type-4 ul.megamenu, .header4 .megamenu-wrapper, .header11 .megamenu-wrapper, .header1.fixed-header.type12, .header12 .megamenu-wrapper, .header1.fixed-header.type15, .header1.fixed-header.type16, .header1.fixed-header.type17, .header22 .megamenu-wrapper, .header23 .megamenu-wrapper, .body-header-type-24 ul.megamenu, .body-header-type-29 ul.megamenu {
+    background: #393f4f;
+}
+
+ul.megamenu>li>a {
+    color: #ffffff !important;
+}
+
+ul.megamenu>li:hover>a {
+    color: #b6bdcf !important;
+}

@@ -1,0 +1,115 @@
+.nav-connect {
+    position: relative;
+    .nc-dropdown {
+        position: absolute;
+        overflow: hidden;
+        height: 0%;
+        left: 0;
+        background-color: var(--darker-blue);
+        width: 100%;
+        transition: 0.5s;
+        color: white;
+        z-index: -5;
+        transform: translateY(-20%);
+        padding: 0;
+        border-radius: 0 0 15px 15px;
+    }
+    z-index: 2000;
+    transition: 0.3s;
+    margin-right: 5%;
+    button {
+        font-size: 15px;
+        padding: 6px 10px;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-style: normal;
+        width: 100%;
+        cursor: pointer;
+    }
+    position: relative;
+    z-index: 2000;
+    >div {
+        transition: 0.5s;
+    }
+}
+
+.nc-open {
+    >.nc-dropdown {
+        height: 200%;
+        padding: 20% 0 0 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .nav-connect {
+        width: 80%;
+        button {
+            font-size: 12px;
+            padding: 5px 1px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-connect {
+        width: 80%;
+        button {
+            font-size: 9.5px;
+            padding: 5px 7px;
+        }
+    }
+    .nc-open {
+        >.nc-dropdown {
+            height: 210%;
+            padding: 15% 0 0 0;
+            border-radius: 0 0 15px 15px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-connect {
+        width: 90% !important;
+        button {
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-connect {
+        width: 50%;
+        button {
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .nav-connect {
+        width: 50%;
+        button {
+            font-size: 17px;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+@media (min-width: 1400px) and (max-width: 2500px) {}
+
+@media (min-width: 2500px) {
+    .nav-connect {
+        z-index: 2000;
+        transition: 0.3s;
+        margin-right: 5%;
+        button {
+            font-size: 30px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-style: normal;
+            border-radius: 50px;
+        }
+    }
+}

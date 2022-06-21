@@ -1,0 +1,308 @@
+* {
+  -webkit-appearance: none;
+}
+.common {
+  background-color: #cdb19b;
+}
+.uncommon {
+  background-color: #77bdeb;
+}
+
+.rare {
+  background-color: #ebc55f;
+}
+.mythic {
+  background-color: #53e3bd;
+}
+.super-rare {
+  background-color: #f17a92;
+}
+
+.common-border {
+  border: 3px solid #cdb19b;
+}
+.uncommon-border {
+  border: 3px solid #77bdeb;
+}
+.rare-border {
+  border: 3px solid #ebc55f;
+}
+.mythic-border {
+  border: 3px solid #53e3bd;
+}
+.super-rare-border {
+  border: 3px solid #f17a92;
+}
+.swiper-button-next {
+  color: white;
+}
+.swiper-button-prev {
+  color: white;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  transform: translateY(-90%);
+}
+#top-label {
+  width: 100%;
+  margin: 0px !important;
+  font-size: 12px;
+  font-weight: 900;
+}
+.mySwiper {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    opacity: 1;
+    margin-top: 10px;
+    transform: scale(0.8);
+    transition: opacity 0.5s;
+    display: flex;
+    display: -webkit-flex;
+
+    justify-content: center;
+  }
+  .swiper-slide-active {
+    opacity: 1;
+    transform: scale(0.5);
+    transition: transform height 0.25s ease-in;
+    transition-delay: 0.15s;
+    height: auto;
+  }
+  .swiper-slide img {
+    display: block;
+    height: 200px;
+
+    width: auto;
+    border-radius: 30px;
+    margin: 0;
+    object-fit: cover;
+  }
+  .label-wrapper {
+    padding: 2% 2.2%;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 14px;
+    .inner-wrapper {
+      padding: 5px 10px;
+      border-radius: 7px;
+      display: flex;
+      display: -webkit-flex;
+
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 10px;
+      .right-label {
+        width: fit-content;
+        display: flex;
+        display: -webkit-flex;
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        #logo-trait {
+          height: 25px;
+          width: 35px;
+          margin-left: 10px;
+          align-self: center;
+          justify-self: center;
+        }
+      }
+      #bottom-line {
+        margin: 0;
+        width: 100%;
+        margin-top: 3px;
+        font-size: 10px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mySwiper {
+    width: 80%;
+    height: 100%;
+    .swiper-slide {
+      opacity: 0;
+      transform: scale(0.5);
+      transition: opacity 0.5s;
+    }
+    .swiper-slide-active {
+      opacity: 1;
+    }
+
+    .swiper-slide img {
+      display: block;
+      height: 350px;
+      width: auto;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+    .label-wrapper {
+      width: 350px;
+    }
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .mySwiper {
+    width: 100%;
+    height: fit-content;
+    .swiper-slide {
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    .swiper-slide-active {
+      opacity: 1;
+      transform: scale(1) !important;
+      transition: transform height 0.25s ease-in;
+      transition-delay: 0.15s;
+      height: auto;
+    }
+    .swiper-slide img {
+      display: block;
+      -webkit-appearance: none;
+      height: 400px !important;
+      width: auto;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+
+    .swiper-slide-next {
+      opacity: 0.3;
+      transition: 0.25s ease-in;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      z-index: -1;
+    }
+    .swiper-slide-prev {
+      opacity: 0.3;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      transition: 0.25s ease-in;
+    }
+    .label-wrapper {
+      margin-top: 40px;
+      padding: 3px;
+      width: 400px;
+      height: fit-content;
+      border-radius: 17px;
+      .inner-wrapper {
+        border-radius: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .right-label {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          #logo-trait {
+            height: 27px;
+            width: 40px;
+            align-self: center;
+            justify-self: flex-end;
+          }
+        }
+        #top-label {
+          letter-spacing: 1px;
+          font-size: 18px;
+        }
+        #bottom-line {
+          margin-top: 0px !important;
+          font-size: 14px;
+          text-align: left;
+          font-style: italic;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .mySwiper {
+    height: fit-content;
+    .swiper-slide {
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    .swiper-slide-active {
+      opacity: 1;
+      transform: scale(1) !important;
+      transition: transform height 0.25s ease-in;
+      transition-delay: 0.15s;
+      height: auto;
+    }
+    .swiper-slide img {
+      display: block;
+      -webkit-appearance: none;
+      height: 700px !important;
+      width: auto;
+      border-radius: 50px !important;
+      object-fit: cover;
+    }
+
+    .swiper-slide-next {
+      opacity: 0.3;
+      transition: 0.25s ease-in;
+      filter: blur(10px);
+      -webkit-filter: blur(10px);
+      border-radius: 50px !important;
+      z-index: -1;
+    }
+    .swiper-slide-prev {
+      opacity: 0.3;
+      filter: blur(10px);
+      -webkit-filter: blur(10px);
+      border-radius: 50px !important;
+      transition: 0.25s ease-in;
+    }
+    .label-wrapper {
+      margin-top: 70px;
+      padding: 6px;
+      width: 700px;
+      height: fit-content;
+      border-radius: 30px;
+      .inner-wrapper {
+        border-radius: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .right-label {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          #logo-trait {
+            height: 70px !important;
+            width: 70px !important;
+            align-self: center;
+            justify-self: flex-end;
+          }
+        }
+        #top-label {
+          letter-spacing: 1px;
+          font-size: 40px;
+        }
+        #bottom-line {
+          margin-top: 0px !important;
+          font-size: 22px;
+          text-align: left;
+          font-style: italic;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

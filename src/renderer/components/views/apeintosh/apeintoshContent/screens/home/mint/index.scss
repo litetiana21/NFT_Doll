@@ -1,0 +1,118 @@
+.h-minting {
+    font-family: Days One !important;
+    display: flex;
+    // justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 1%;
+    margin-top: 30px;
+    h1 {
+        color: white;
+        margin: 1% 3% 0 3%;
+        font-size: 28px;
+        text-transform: capitalize;
+        margin-bottom: 0%;
+    }
+    .mint-close {
+        color: white;
+        position: absolute;
+        right: 0;
+        top: -15%;
+        margin-right: 3%;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .minting-countdown {
+        min-height: 50px;
+        width: 150px;
+        text-align: center;
+        background-color: white;
+        border-radius: 5px;
+        padding: 1% 2%;
+        border: 1px solid black;
+        font-size: 25px;
+        color: var(--dark-purple);
+        font-weight: bold;
+        margin-bottom: 0%;
+    }
+    .minting-button {
+        width: 150px;
+        font-size: 28px;
+        background-color: var(--light-blue);
+    }
+    .div-mint-description{
+        color: white;
+        font-weight: bolder;
+        height: 170px;
+        p{
+            line-height: 0.4;
+        }
+    }
+    span{
+        color: white;
+    }
+}
+
+@media (max-width: 992px) {
+    .h-minting {
+        padding: 6%;
+        h1 {
+            font-size: 20px;
+        }
+        .minting-button {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+   .h-minting{
+       h1{
+           font-size: 24px;
+       }
+   }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+     :root {
+        --content-radius: 75px;
+    }
+    .h-minting{
+        h1{
+            font-size: 28px;
+        }
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1800px) {
+     :root {
+        --content-radius: 75px;
+    }
+    .div-mint-description{
+        p{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 2500px) {
+    .h-minting {
+        h1 {
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+        .minting-countdown {
+            font-size: 40px;
+        }
+        .minting-button {
+            font-size: 40px;
+        }
+        .mint-close {
+            font-size: 50px;
+        }
+    }
+}

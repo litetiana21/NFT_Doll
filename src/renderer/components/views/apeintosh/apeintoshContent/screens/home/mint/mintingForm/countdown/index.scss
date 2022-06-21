@@ -1,0 +1,89 @@
+.gap {
+    padding: 10px;
+    margin: 10px;
+}
+.countdown {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    line-height: 1;
+}
+.countdown > p {
+    font-weight: 500;
+    font-size: 38px;
+    margin: 0;
+    padding-top: 12%;
+}
+
+@media (max-width: 425px) {
+    .countdown {
+        width: 80px;
+        height: 80px;
+        margin: 4px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 800px) {
+    .countdown {
+        width: 90px;
+        height: 90px;
+        margin: 4px;
+    }
+    .countdown >span { 
+        font-size: small;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 992px) {
+    .countdown {
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .countdown {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+     :root {
+        --content-radius: 75px;
+    }
+    .h-minting{
+        h1{
+            font-size: 28px;
+        }
+    }
+}
+
+@media (min-width: 2500px) {
+    .countdown {
+        width: 235px;
+        height: 235px;
+        margin: 10px;
+    }
+    // .countdown > span {
+    //     font-size: 30px;
+    // }
+    .h-minting {
+        margin-top: 0;
+    }
+    .div-mint-description {
+        display: none;
+    }
+}
+@media (min-width: 1200px) and (max-width: 2500px) {
+    .countdown > p {
+        margin-top:10%;
+    }
+}
+ 

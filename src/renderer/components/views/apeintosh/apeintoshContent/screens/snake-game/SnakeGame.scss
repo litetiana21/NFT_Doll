@@ -1,0 +1,331 @@
+.game-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  .banana-blitz-logo {
+    height: 30px;
+    width: 200px;
+  }
+  // padding: 10px;
+}
+.active {
+  display: none;
+}
+.playArea {
+  position: relative;
+  background-image: url("../../../../../../../assets/images/pictures/games-snake/ColourBG_Desktop.857a150e.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+  outline: none;
+  height: 60%;
+  width: 70%;
+}
+#score {
+  margin: 0;
+  width: 70%;
+  text-align: left;
+  color: #341853;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: var(--console-font);
+}
+.game-start-screen {
+  background-image: url("../../../../../../../assets/images/pictures/games-snake/banana-blitz-box.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 85%;
+  font-family: var(--console-font);
+  color: #341853;
+  width: 85%;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  #closeButton {
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--dark-purple);
+    height: fit-content;
+    position: absolute;
+    right: 15%;
+    top: 12%;
+    font-weight: bold;
+  }
+  .start-screen-content-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    button {
+      margin-top: 5px;
+      padding: 5px 15px;
+      font-size: 12px;
+      width: fit-content;
+      font-family:var(--console-font);
+    }
+    p {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-family: var(--console-font);
+    }
+  }
+}
+.game-end-screen {
+  background-image: url("../../../../../../../assets/images/pictures/games-snake/banana-blitz-box.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 85%;
+  font-family: var(--console-font);
+  color: #341853;
+  width: 85%;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  #closeButtonAfter {
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--dark-purple);
+    height: fit-content;
+    position: absolute;
+    right: 15%;
+    top: 12%;
+    font-weight: bold;
+  }
+  .end-screen-content-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    button {
+      margin-top: 5px;
+      padding: 5px 10px;
+      font-size: 12px;
+      width: fit-content;
+      font-family:var(--console-font);
+
+    }
+    p {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-family: var(--console-font);
+    }
+  }
+}
+.snake-box {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  background-color: #ffd460;
+  // background-attachment: fixed;
+}
+.snake-food {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  background-image: url("../../../../../../../assets/images/pictures/games-snake/banana.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.playButton {
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: var(--console-font);
+  text-transform: uppercase;
+  transition: 0.5s;
+  -moz-box-shadow: inset 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.4),
+    inset -1.5px -1.5px 1.5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.4),
+    inset -1.5px -1.5px 1.5px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.4),
+    inset -1.5px -1.5px 1.5px rgba(0, 0, 0, 0.4);
+  background-color: var(--ligth-purple);
+  &:hover {
+    background-color: #9e8bd1;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .game-start-screen {
+    .start-screen-content-wrapper {
+      p {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      button {
+        margin-top: 5px;
+        padding: 5px 20px;
+        font-size: 12px;
+        width: fit-content;
+      }
+    }
+  }
+  .game-end-screen {
+    .end-screen-content-wrapper {
+      p {
+        font-size: 17px;
+      }
+      button {
+        width: 25%;
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (min-width: 1600px) and (max-width: 1800px) {
+  .game-start-screen {
+    .start-screen-content-wrapper {
+      p {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      button {
+        width: 80px;
+        padding: 0;
+        font-size: 15px;
+      }
+    }
+  }
+  .game-end-screen {
+    .end-screen-content-wrapper {
+      p {
+        font-size: 20px;
+      }
+      #closeButtonAfter {
+        font-size: 28px;
+        cursor: pointer;
+        color: var(--dark-purple);
+        height: fit-content;
+        position: absolute;
+        right: 17%;
+        top: 15%;
+        font-weight: bold;
+      }
+      button {
+        width: 30%;
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (min-width: 1800px) and (max-width: 2500px) {
+  .game-start-screen {
+    .start-screen-content-wrapper {
+      p {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      #closeButton {
+        font-size: 32px;
+        cursor: pointer;
+        color: var(--dark-purple);
+        height: fit-content;
+        position: absolute;
+        right: 16%;
+        top: 15%;
+        font-weight: bold;
+      }
+      button {
+        width: 80px;
+        padding: 0;
+        font-size: 15px;
+      }
+    }
+  }
+  .game-end-screen {
+    .end-screen-content-wrapper {
+      p {
+        font-size: 20px;
+      }
+      #closeButtonAfter {
+        font-size: 35px;
+        cursor: pointer;
+        color: var(--dark-purple);
+        height: fit-content;
+        position: absolute;
+        right: 17%;
+        top: 15%;
+        font-weight: bold;
+      }
+      button {
+        width: 28%;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+@media (min-width: 2500px) {
+  .game-start-screen {
+    .start-screen-content-wrapper {
+      p {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      #closeButton {
+        font-size: 32px;
+        cursor: pointer;
+        color: var(--dark-purple);
+        height: fit-content;
+        position: absolute;
+        right: 16%;
+        top: 15%;
+        font-weight: bold;
+      }
+      button {
+        width: 120px;
+        padding: 0;
+        height: fit-content;
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+    }
+  }
+  .game-end-screen {
+    .end-screen-content-wrapper {
+      p {
+        font-size: 30px;
+      }
+      #closeButtonAfter {
+        font-size: 40px;
+        cursor: pointer;
+        color: var(--dark-purple);
+        height: fit-content;
+        position: absolute;
+        right: 18%;
+        top: 15%;
+        font-weight: bold;
+      }
+      button {
+        width: 30%;
+        font-size: 25px;
+        margin-bottom: 7px;
+      }
+    }
+  }
+}

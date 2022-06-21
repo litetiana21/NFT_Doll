@@ -1,0 +1,161 @@
+.hp-roadmap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    background-color: var(--dark-blue);
+    padding: 2% 4%;
+    border-radius: var(--content-radius);
+    margin-bottom: 5% !important;
+    background-image: url(../../../../../../assets/images/pictures/backgrounds/purple-banana-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .hp-rm-content {
+        width: 70%;
+        padding: 2%;
+        text-align: center;
+        p {
+            text-align: left;
+        }
+    }
+    >svg {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        right: -6%;
+        top: -6%;
+    }
+    >img {
+        height: 85%;
+        width: auto;
+        position: absolute;
+        right: -10%;
+        top: -10%;
+    }
+}
+
+#roadmap {
+    text-align: left;
+}
+
+#roadmap h1,
+#about h1,
+#traits h1 {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .hp-roadmap {
+        margin-top: 20%;
+        .hp-rm-content {
+            width: 90%;
+            p {
+                font-size: 13px !important;
+            }
+        }
+        >svg {
+            height: 25%;
+            width: auto;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            transform: translate(25%, -22%) rotate(-10deg);
+        }
+    }
+    .hp-roadmap #banana {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768) {
+    #roadmap h1 {
+        font-size: 80px;
+    }
+    #roadmap p {
+        font-weight: 100;
+        font-size: 35px;
+    }
+    #banana {
+        display: none;
+    }
+    .hp-roadmap>svg {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #roadmap {
+        padding: 20px 15px;
+    }
+    #roadmap h1 {
+        font-size: 40px;
+    }
+    #roadmap p {
+        font-size: 25px;
+    }
+    .hp-rm-content {
+        width: 100% !important;
+    }
+    .hp-roadmap #banana {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .hp-roadmap {
+        >svg {
+            height: 80%;
+            right: -10%;
+        }
+        .hp-rm-content {
+            width: 80%;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+     :root {
+        --content-radius: 75px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+    .hp-roadmap {
+        .hp-rm-content {
+            width: 80%;
+            h1 {
+                font-size: 60px;
+                text-align: left;
+            }
+        }
+        >svg {
+            max-width: 600px !important;
+            height: 90%;
+            width: auto;
+            position: absolute;
+            right: -8%;
+            top: -6%;
+        }
+    }
+}
+
+@media (min-width: 2500px) {
+    .hp-roadmap {
+        padding: 5% 6%;
+        .hp-rm-content {
+            width: 80%;
+            h1 {
+                font-size: 130px;
+            }
+        }
+        >svg {
+            height: 65%;
+            width: auto;
+            position: absolute;
+            right: -14%;
+            top: -6%;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.minting-msg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+
+  p {
+    margin: 5% 0;
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .minting-msg {
+    height: 150%;
+    p {
+      margin: 5% 0;
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .minting-msg {
+    p {
+      margin: 5% 0;
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  .minting-msg {
+    p {
+      margin: 5% 0;
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 2500px) {
+  .minting-msg {
+    p {
+      margin: 5% 0;
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,275 @@
+.apeintosh {
+    color: black;
+    // background-color: var(--dark-blue);
+    background: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+    background-size: cover;
+    padding: 0 0% 0% 0%;
+    border-bottom: 5px solid var(--light-blue);
+    position: relative;
+    >svg {
+        position: absolute;
+        bottom: 3%;
+    }
+    .div-container-image{
+        width: 33.333%;
+    }
+    .div-exclusives{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .side-image{
+            width: 264px;
+            height: 241px;
+        }
+    }
+    .div-scholaroids{
+        margin: -8.5em auto;
+        width: 56%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .side-image{
+            width: 240px;
+        }
+    }
+    .apeintosh-pc {
+        margin: 0 auto;
+        position: relative;
+        width: 56%;
+        z-index: 3;
+        .apeintosh-img {
+            width: 100%;
+            height: auto;
+            z-index: 2;
+        }
+        .apeintosh-content {
+            height: var(--height);
+            width: var(--width);
+            top: var(--y);
+            left: var(--x);
+            mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+            --webkit-mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+            mask-size: 100%;
+            mask-repeat: no-repeat;
+            mask-position: center;
+            z-index: 2;
+            h3 {
+                color: white;
+                padding: 0px 35px;
+            }
+        }
+        .ape-shadow {
+            background-color: rgba($color: black, $alpha: 1.5);
+            position: absolute;
+            width: 150%;
+            border-radius: 50%;
+            transform: translateX(-16.666%);
+            bottom: 0;
+            height: 15px;
+            z-index: -1;
+            filter: blur(5px);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .apeintosh {
+        padding: 3% 0% 18% 0%;
+        .div-exclusives{
+            margin-top: 2em;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .div-container-image{
+                .side-image{
+                    width: 110px;
+                    height: 100px;
+                }
+                img{
+                    width: 150px;
+                    height: 135px;
+                }
+            }
+        }
+        .div-scholaroids{
+            margin: 0.5em auto;
+            width: 56%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .div-container-image img{
+                width: 100px;
+            }
+            .side-image{
+                width: 118px !important;
+            }
+        }    
+        .apeintosh-pc {
+            width: 100%;
+            position: relative;
+            .apeintosh-img {
+                width: 100%;
+                z-index: 2;
+            }
+            .apeintosh-content {
+                height: 49vh;
+                width: 100vw;
+                top: var(--y);
+                left: var(--x);
+                mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+                --webkit-mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+                mask-size: 100%;
+                mask-repeat: no-repeat;
+                mask-position: center;
+                z-index: 2;
+                h3 {
+                    color: white;
+                    padding: 0px 35px;
+                }
+            }
+    
+        }
+        >svg {
+            position: absolute;
+            bottom: 3%;
+            width: 8%;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .apeintosh {
+        padding: 3% 0% 18% 0%;
+        .div-exclusives{
+            margin-top: 2em;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .div-container-image{
+                .side-image{
+                    width: 180px;
+                    height: 165px;
+                }
+                img{
+                    width: 210px;
+                    height: 195px;
+                }
+            }
+        }
+        .div-scholaroids{
+            margin: 0.5em auto;
+            width: 56%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .div-container-image img{
+                width: 100px;
+            }
+            .side-image{
+                width: 118px !important;
+            }
+        }    
+        .apeintosh-pc {
+            width: 60%;
+            position: relative;
+            .apeintosh-content {
+                height: 49vh;
+                width: 60vw;
+            }
+            .apeintosh-img {
+                width: 100%;
+                z-index: 2;
+            }
+        }
+        >svg {
+            position: absolute;
+            bottom: 3%;
+            width: 8%;
+        }
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .apeintosh {
+        padding: 3% 0% 18% 0%;
+        .div-exclusives{
+            margin-top: 2em;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .div-container-image{
+                .side-image{
+                    width: 210px;
+                    height: 195px;
+                }
+                img{
+                    width: 240px;
+                    height: 225px;
+                }
+            }
+        }
+        .div-scholaroids{
+            margin: -5.5em auto;
+            width: 56%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .div-container-image img{
+                width: 200px;
+            }
+            .side-image{
+                width: 210px !important;
+            }
+        }    
+        .apeintosh-pc {
+            width: 54%;
+            position: relative;
+            .apeintosh-img {
+                width: 100%;
+                z-index: 2;
+            }
+            .apeintosh-content {
+                height: 400px;
+                // width: 100vw;
+            }
+        }
+        >svg {
+            position: absolute;
+            bottom: 3%;
+            width: 8%;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .apeintosh {
+        .div-scholaroids{
+            margin: -9.5em auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .apeintosh {
+        .apeintosh-pc {
+            width: 40%;
+            position: relative;
+            .apeintosh-img {
+                width: 100%;
+                z-index: 2;
+            }
+        }
+    }
+}

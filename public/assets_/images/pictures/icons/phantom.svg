@@ -1,0 +1,37 @@
+var _image;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgPhantom(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: 29,
+    height: 25,
+    viewBox: "0 0 29 25",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _image || (_image = /*#__PURE__*/React.createElement("image", {
+    width: 29,
+    height: 25,
+    xlinkHref: "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAB6ElEQVRIib2WT0tVURTFf/4hTSkHQaJBVGTZJINUHCT0FRIHz4ZCYyfRoFEfIKJmDoQm0cBvIIgioWA0qZmKMxWD/JMRihRLduwHp+t579773tUF513OOueedffZ++29GySRggHgEXAH6PSt28AqsAR8TjvgFEy0wihJ+qR02J6RKuecGjGyW9JcBrEkFiRdq0X0vqSdGgTLsHfvpomGPr0NrACNuX30P34BN4DdShtCgZkCBA2X/KyKKIu8AG4VIFhGP/C80qJdbxNwALQVKGr4DXQAf5MLZulIQnAeKAFTAXcMTABjwHpG0XbgSXRF0lQQfceSLgaRtu78ZMA9zhHN72PRa5Y+CL7hEPgTzDf9uRVw+xktNfTGSBPtCeYNwIVg3uzPloBrzSHaHSObEyJNHgDh3HAUcHs5RK8Di/6+GbgDvLQ7Xkv4YdzvflDSkXPfJLU7/66OjGVYtUOmYwsR7kfkA2vBFzN5NnItPRHuiqfKevHGksNl91MRKTANVoe7Gj0bvT0HQcPTf78eHC2SdgvwVzW8itXToTMUfF2tiI+egeCzLO3KsKSfBYgtS7qXtUey0SnpYx1ipbyNWTj6vFJYYqiGDUkfvAKlNmZZ+l6DJfmHwE3gqudsq0jfva/6mvlPA5wAx2shm8vaexQAAAAASUVORK5CYII="
+  })));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgPhantom);
+export default __webpack_public_path__ + "static/media/phantom.e1d7d25e.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,40 @@
+.advanced-grid.advanced-grid-98452648.jumbotron.homepage{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;    
+}
+
+.advanced-grid.advanced-grid-98452648.jumbotron.homepage > div{
+    background-image: url(../img/custom/react1.png) repeat;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.advanced-grid.advanced-grid-98452648.jumbotron.homepage > div .container div{
+    padding-top: 0px;padding-left: 0px;padding-bottom: 0px;padding-right: 0px;    
+}
+
+.jumbotron.homepage {
+    padding: 0;
+}
+
+.jumbotron.homepage .container {
+    padding: 15px;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+
+.jumbotron.homepage .container .header {
+    font-size: 17px;
+    text-align: center;
+    line-height: normal;
+    color: #333;
+}
+
+.jumbotron.homepage .container .button-area {
+    text-align: center;
+    margin-top: 11px;
+}

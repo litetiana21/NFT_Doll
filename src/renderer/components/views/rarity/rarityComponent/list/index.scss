@@ -1,0 +1,60 @@
+.list-wrapper {
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 20px;
+  width: 100%;
+  height: 100%;
+  h4{
+      margin: 0;
+  }
+  .list-item {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid aquamarine;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding: 10px 20px;
+    p {
+      margin: 0;
+      font-size: 13px;
+    }
+    
+    #value{
+        font-weight: 0 !important;
+        font-size: 12px;
+    }
+  }
+  .common-list {
+    border: 1px solid #cdb19b;
+    
+  }
+  .uncommon-list {
+    border: 1px solid  #77bdeb;
+  }
+  .rare-list {
+    border: 1px solid #ebc55f;
+  }
+  .mythic-list {
+    border: 1px solid #53e3bd;
+  }
+  .super-rare-list {
+    border: 1px solid  #f17a92;
+  }
+}
+@media only screen and (min-width: 980px) {
+    .list-item {
+        display: grid;
+        width: 70%;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 1px solid aquamarine;
+        row-gap: 10px;
+        column-gap: 20px;
+        padding: 10px 20px;
+        p {
+          margin: 0;
+          font-size: 13px;
+        }
+      }
+}

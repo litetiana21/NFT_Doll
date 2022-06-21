@@ -1,0 +1,87 @@
+.a-popup-window {
+    position: absolute;
+    width: 90%;
+    background-color: var(--dark-blue);
+    // background: url("../../../../../assets/images/pictures/backgrounds/2.png");
+    border: 2px solid white;
+    border-radius: 28px;
+    box-shadow: 1px 3px 3px white;
+}
+
+.opened-window {
+    animation: open-window 0.5s ease-in-out;
+    height: 380px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+.closed-window {
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.closed-window-animation {
+    animation: close-window 0.5s ease-in-out;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@keyframes open-window {
+    from {
+        opacity: 0;
+        top: 120%;
+        transform: translate(-50%, 0);
+    }
+    to {
+        top: 80%;
+        opacity: 1;
+        transform: translate(-50%, -70%);
+    }
+}
+
+@keyframes close-window {
+    from {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        top: 120%;
+        opacity: 0;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media (max-width: 768px) {
+    .opened-window {
+        top: 20%;
+    }
+}
+
+@media (max-width: 992px) {
+    .opened-window {
+        height: 340px;
+        top: 20%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .opened-window {
+        height: 312px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .opened-window {
+        height: 330px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .opened-window {
+        height: 326px;
+    }
+}

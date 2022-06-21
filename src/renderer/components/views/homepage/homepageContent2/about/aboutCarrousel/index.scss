@@ -1,0 +1,45 @@
+.a-carrousel {
+  position: relative;
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white;
+  }
+
+  .a-carrousel-img {
+    img {
+      border-radius: 60px;
+      width: 100%;
+      height: 100%;
+      border: 3px solid var(--light-blue);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .a-carrousel {
+    margin-top: 20%;
+    margin-bottom: 0;
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }
+    .swiper-slide img {
+      max-height: 100%;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+}
+
+@media (min-width: 2500px) {
+  .a-carrousel {
+    .swiper-slide img {
+      max-height: 100%;
+      border-radius: 150px;
+    }
+  }
+}

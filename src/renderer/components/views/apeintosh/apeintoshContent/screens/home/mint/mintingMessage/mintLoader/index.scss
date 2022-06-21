@@ -1,0 +1,43 @@
+.mm-loader > span {
+  width: 5%;
+  height: 100%;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 5px;
+  font-family: var(--console-font);
+}
+
+.mm-loader {
+  min-height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot-1 {
+  animation: anim 1s linear 0s infinite;
+}
+
+.dot-2 {
+  animation: anim 1s linear 0.25s infinite;
+}
+
+.dot-3 {
+  animation: anim 1s linear 0.5s infinite;
+}
+
+.dot-4 {
+  animation: anim 1s linear 0.75s infinite;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,114 @@
+.hp-trait {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding-top: 7%;
+  .hp-trait-content {
+    background-image: url(../../../../../../assets/images/pictures/backgrounds/purple-banana-background.png);
+    border-radius: 2vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 6% 7%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    h1 {
+      margin-bottom: 0;
+    }
+    p {
+      font-family: var(--content-font);
+    }
+  }
+  .hp-trait-levels {
+    width: 80%;
+    height: 100%;
+    justify-self: end;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    > div {
+      margin-bottom: 5%;
+      width: 100%;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .hp-trait-btn {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 40px !important;
+    margin-top: 4%;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 992px) {
+  .hp-trait {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+
+    padding: 10% 0;
+    .hp-trait-btn {
+      font-size: 20px;
+    }
+    .hp-trait-content {
+      padding: 15% 10%;
+      height: 100%;
+      border-radius: 35px;
+    }
+    .hp-trait-levels {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .hp-trait {
+    .hp-trait-btn {
+      font-size: 100px;
+      text-transform: uppercase;
+      color: white;
+      padding: 3% 15%;
+      // border-radius: 80px;
+    }
+    .hp-trait-levels {
+      width: 70%;
+      justify-self: end;
+      align-self: start;
+      > div {
+        margin-bottom: 5%;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

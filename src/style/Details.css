@@ -1,0 +1,38 @@
+.font-weight-bold{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.container.py-5 span, label{
+    font-size: 2em !important;
+    /* margin: 2em; */
+}
+
+.container.py-5 span{
+    margin: 2em;
+}
+
+.container.py-5 h1{
+    font-size: 3em !important;
+}
+
+.container.py-5 input, textarea{
+    font-size: 1.5em !important;
+}
+
+.container.py-5 textarea{
+    line-height: 3;
+}
+
+.container.py-5 table tr td{
+    font-size: 2em !important;
+    vertical-align: top;
+}
+
+.container.py-5 table tr td:nth-child(2){
+    width: 70%;
+}
+
+.container.py-5 table tr td:nth-child(1){
+    font-weight: bold;
+}

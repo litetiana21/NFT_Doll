@@ -1,0 +1,63 @@
+.hp-team {
+  width: inherit;
+  text-align: center;
+  margin-bottom: 0 !important;
+
+  h1 {
+    font-size: 130px;
+    margin: 0;
+  }
+  .hp-team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+}
+
+@media (max-width: 992px) {
+  .hp-team {
+    width: 100vw;
+    background-image: url(../../../../../../assets/images/pictures/backgrounds/purple-banana-background.png);
+    margin: 0 -12.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    h1 {
+      font-size: 100px;
+    }
+    .hp-team-list {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: start;
+      gap: 40px;
+
+      padding: 0 10% 15% 10%;
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 2500px) {
+ .hp-tm img {max-width:5000px;}
+  .hp-team {
+    h1 {
+      font-size: 250px;
+    }
+    h2 {
+      font-size: 100px;
+    }
+  }
+}

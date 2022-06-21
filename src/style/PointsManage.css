@@ -1,0 +1,52 @@
+.container.py-5 span{
+    color: black;
+    font-size: 1.5em;
+}
+
+.container.py-5 select{
+    margin-left: 2em;
+    padding: 0.7em;
+}
+
+.container.py-5{
+    font-family: 'Open-sans';
+    overflow: auto;
+    height: 600px;
+}
+
+.container.py-5 table{
+    width: 100%; 
+    margin-top: 1em;
+}
+
+.container.py-5 table thead{
+    color: black;
+    background-color: #ddd;
+}
+
+.container.py-5 table th, td{
+    padding: 0.3em 0.5em;
+}
+
+.container.py-5 table tbody tr td{
+    padding: 1em 0.5em;
+    font-size: 1em;
+    border-bottom: 1px solid #dddddd;
+    
+}
+
+.container.py-5 table td{
+    color: #111;
+}
+
+.container.py-5 h1{
+    margin-bottom: 14px !important;
+}
+
+.container.py-5 span{
+    margin: 0 !important;
+}
+
+.btn-add-person{
+    margin-left: 1em;
+}

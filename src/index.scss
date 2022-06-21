@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Permanent+Marker&family=VT323&display=swap&family=Libre+Franklin:wght@200&display=swap&?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://use.typekit.net/emt8wxl.css");
+@font-face {
+    font-family: "console";
+    // src: url("./assets/fonts/losumires-2x8l-webfont.woff2") format("woff2"),
+    // url("./assets/fonts/losumires-2x8l-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lores-12";
+    src: url("https://use.typekit.net/emt8wxl.css");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "futura-pt";
+    src: url("https://use.typekit.net/emt8wxl.css");
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+/* @font-face {
+  font-family: "azo-sans-web";
+  src: url("https://use.typekit.net/emt8wxl.css");
+  font-weight: 900;
+  font-style: normal;
+} */
+
+@font-face {
+    font-family: "azo-sans";
+    // src: url("./assets/fonts/AzoSans.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "bicyclette";
+    src: url("https://use.typekit.net/emt8wxl.css");
+    font-weight: 300;
+    font-style: normal;
+}
+
+:root {
+    font-family: "Paytone One", sans-serif;
+    color: white;
+    text-align: center;
+    --light-blue: #30cfbe;
+    --dark-blue: #1d0c47;
+    --darker-blue: #150d29;
+    --dark-blue-gradient: linear-gradient( 90deg, rgba(31, 17, 65, 1) 0%, rgba(46, 25, 100, 1) 50%, rgba(31, 17, 65, 1) 100%);
+    --dark-purple: #462f64;
+    --ligth-purple: #c0aaff;
+    --super-light-blue: #d0fffa;
+    --console-font: "lores-12", monospace;
+    --title-font: "Paytone One", sans-serif;
+    --content-font: "bicyclette", sans-serif;
+    --subtitle-font: "Paytone One", sans-serif;
+    --common: #c6a890;
+    --uncommon: #73b6e9;
+    --rare: #fae187;
+    --veryrare: #ec8c9d;
+    --mythic: #40daca;
+    --c1: #160c2e;
+    --c2: #2e1964;
+    --c3: #30cfbe;
+    --sollet: #0377ff;
+    --sollet-hover: #0564d1;
+    --phantom: #551ef5;
+    --phantom-hover: #4619ce;
+}
+
+*,
+*,
+*::after,
+*::before {
+    box-sizing: border-box !important;
+}
+
+.main {
+    position: relative;
+}
+
+html {
+    background: var(--darker-blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: var(--title-font);
+}
+
+p {
+    font-family: var(--content-font);
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.hp-about>img {
+    width: 40%;
+    height: auto;
+    bottom: 0;
+    left: -10%
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+    }
+    p {
+        font-family: var(--content-font);
+    }
+    .hp-about>img {
+        width: 40%;
+        height: auto;
+        bottom: 0;
+        left: -10%
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+    h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+    }
+    p {
+        font-family: var(--content-font);
+        font-size: 20px;
+    }
+    .hp-about>img {
+        width: 50%;
+        height: 70%;
+        bottom: 0;
+        left: -10%
+    }
+}
+
+@media (min-width: 2500px) {
+    h1 {
+        text-transform: uppercase;
+        font-size: 100px;
+    }
+    p {
+        font-family: var(--content-font);
+        font-size: 50px;
+    }
+    .hp-about>img {
+        width: 40%;
+        height: 70%;
+        bottom: 0;
+        left: -10%
+    }
+}

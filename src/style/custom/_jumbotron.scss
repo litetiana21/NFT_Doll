@@ -1,0 +1,31 @@
+
+/* JUMBOTRON                                                                                  JUMBOTRON */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.jumbotron.homepage {
+	padding: 0;
+
+	.container {
+		padding: 15px;
+
+		.header {
+			font-size: 17px;
+			text-align: center;
+			line-height: normal;
+			color: #333;
+		}
+
+		.button-area {
+			text-align: center;
+			margin-top: 11px;
+
+			.btn-lg {
+				font-size: 17px;
+				padding: 9px 20px;
+			}
+
+		}
+
+	}
+
+}
