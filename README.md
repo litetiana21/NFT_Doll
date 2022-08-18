@@ -94,5 +94,5 @@ Don't forget npm add or yarn add @babel/plugin-proposal-nullish-coalescing-opera
 ex)     yarn add @babel/plugin-proposal-nullish-coalescing-operator --dev
         npm install --save-dev @babel/plugin-proposal-nullish-coalescing-operator
 
--------------------Connect Metamask with React Hook ----------------------------
+-------------------Connect Metamask with React Hook -----------------------
 use-metamask
